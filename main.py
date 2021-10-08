@@ -1,8 +1,8 @@
-num = int(input('Enter any Number: '))
-for i in range(2,num):
-    if num % i == 0:
-        print(f'{num} Not Prime Because it is Divisible by {i} at {num//i}.')
+n = int(input('Enter any Number: '))
+for i in range(2,n):
+    if n % i == 0:
+        print(f'{n} Not Prime Because it is Divisible by {i} at {n//i}.')
         break
 else:
-    print(f'{num} is a Prime Number.')
+    print(f'{n} is a Prime Number.')
     
